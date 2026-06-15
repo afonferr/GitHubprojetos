@@ -1,0 +1,33 @@
+{
+  "name": "travel-planner-app",
+  "version": "1.0.0",
+  "description": "Modern family travel itinerary organizer",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1",
+    "zustand": "^4.4.1",
+    "lucide-react": "^0.307.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.7",
+    "tailwindcss": "^3.3.6",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  }
+}
