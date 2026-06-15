@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": ["es2020", "dom", "dom.iterable"],
+    "skipLibCheck": true
+  },
+  "include": ["vite.config.ts"],
+  "references": [{ "path": "./tsconfig.json" }]
+}
